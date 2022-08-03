@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding: 20px;
+}
+
+.btnEnviar{
+    width: 10vw;
+    background-color: rgb(194, 255, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
