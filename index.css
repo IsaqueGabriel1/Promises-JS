@@ -7,7 +7,6 @@
 section{
     display: flex;
     flex-direction: column;
-    width: 50vw;
     padding: 20px;
 }
 
@@ -17,4 +16,31 @@ section{
     border: none;
     padding: 5px;
     border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+    label{
+        font-size: 14px;
+    }
+    .btnEnviar{
+        width: 15vw;
+        margin-top: 10px;
+    }
+    p{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    label{
+        font-size: 12px;
+    }
+    .btnEnviar{
+        width: 20vw;
+        margin-top: 10px;
+    }
+    p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
 }
