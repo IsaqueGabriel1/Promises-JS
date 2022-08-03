@@ -1,6 +1,6 @@
 function teste(){
     const myPromise = new Promise((resolve, reject) => {
-        const nome = ["Isaque", "Gabriel", "Reis"]
+        const nome = ["Isaque", "Gabriel"]
         const senha = 1234
         
         let txtUser = document.getElementById("txtUser")
